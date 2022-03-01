@@ -4,24 +4,14 @@ import (
 	"fmt"
 )
 
-func Al10818() error {
-	var n int
-	var str, min, max int
-	_, err := fmt.Scan(&n)
-	if n <= 1 && n >= 1000000 {
-		return err
-	}
+func Al10818V2(){
+	var n,str, min, max int
+	fmt.Scan(&n)
 	var arr []int
-	fmt.Println(n)
 		for i := 0; i < n; i++ {
-			_, err = fmt.Scanf("%d", &str)
+			fmt.Scanf("%d", &str)
 			arr = append(arr, str)
-			if str <= -1000000 && str >= 1000000 {
-				return err
-			}
-
 		}
-		fmt.Println(arr)
 		min = arr[0]
 		max = arr[0]
 		for i := 0; i < n; i++ {
@@ -34,5 +24,4 @@ func Al10818() error {
 		}
 
 	fmt.Println(min, max)
-	return 	nil
 }
