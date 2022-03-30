@@ -26,6 +26,7 @@ func main() {
 	//study_for.Al2438()
 	//study_for.Al2439()
 	//study_for.Al10871()
-	study_for.Al10952()
+	//study_for.Al10952()
+	study_for.Al1110()
 
 }
