@@ -1,6 +1,6 @@
 package main
 
-import "algorithm/study_for"
+import "algorithm/programmers"
 
 func main() {
 	//Al2577(150,266,427)
@@ -27,6 +27,7 @@ func main() {
 	//study_for.Al2439()
 	//study_for.Al10871()
 	//study_for.Al10952()
-	study_for.Al1110()
+	//study_for.Al1110()
+	programmers.Al12969()
 
 }
