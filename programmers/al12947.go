@@ -2,29 +2,21 @@ package programmers
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func Al12947() {
-	x := 10
-	var arr []string
+	x := 165
 	sum := 0
+	num := x
 
-	str := strconv.Itoa(x)
-
-	for i := 0; i < len(str); i++ {
-		arr = append(arr, string(str[i]))
-		num, _ := strconv.Atoi(arr[i])
-		sum += num
-
+	for ; x >= 1; {
+		sum += x % 10
+		x = x / 10
 	}
 
-	if x%sum == 0 {
+	if num%sum == 0 {
 		fmt.Println(true)
 	} else {
 		fmt.Println(false)
 	}
 }
-
-
-
