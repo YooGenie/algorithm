@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func Al12918() {
+func Al12917() {
 	var s = "Zbcdefg"
 
 	var result string
