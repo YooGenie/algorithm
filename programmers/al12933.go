@@ -4,25 +4,17 @@ import (
 	"fmt"
 	"sort"
 	"strconv"
+	"strings"
 )
 
 func Al12933() {
 	var n int64 = 118372
 	str := strconv.Itoa(int(n))
-	var arr []string
-	for i := 0; i < len(str); i++ {
+	arr := strings.Split(str, "")
 
-		arr = append(arr, string(str[i]))
-
-	}
 	sort.Sort(sort.Reverse(sort.StringSlice(arr)))
 
-	resultStr := ""
-	for _, v := range arr {
-		resultStr += v
-	}
-
-	result, _ := strconv.ParseInt(resultStr, 10, 64)
+	result, _ := strconv.ParseInt(strings.Join(arr,""),10,64)
 
 	fmt.Println(result)
 }
