@@ -1,6 +1,8 @@
 package main
 
-import "algorithm/programmers"
+import (
+	"algorithm/sort"
+)
 
 func main() {
 	//Al2577(150,266,427)
@@ -28,7 +30,8 @@ func main() {
 	//study_for.Al10871()
 	//study_for.Al10952()
 	//study_for.Al1110()
-	programmers.Al12951()
+	//programmers.Al12951()
+	sort.SelectSort()
 
 
 }
