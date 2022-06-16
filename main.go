@@ -1,7 +1,7 @@
 package main
 
 import (
-	"algorithm/sort"
+	"algorithm/ect"
 )
 
 func main() {
@@ -31,7 +31,7 @@ func main() {
 	//study_for.Al10952()
 	//study_for.Al1110()
 	//programmers.Al12951()
-	sort.SelectSort()
-
+	//sort.SelectSort()
+	ect.GreatestCommonFactor(51, 15)
 
 }
