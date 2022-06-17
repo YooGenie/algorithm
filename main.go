@@ -32,6 +32,6 @@ func main() {
 	//study_for.Al1110()
 	//programmers.Al12951()
 	//sort.SelectSort()
-	ect.GreatestCommonFactor(51, 15)
+	ect.LeastCommonMultiple(30, 50)
 
 }
