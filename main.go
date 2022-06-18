@@ -1,8 +1,6 @@
 package main
 
-import (
-	"algorithm/ect"
-)
+import "algorithm/sort"
 
 func main() {
 	//Al2577(150,266,427)
@@ -31,7 +29,7 @@ func main() {
 	//study_for.Al10952()
 	//study_for.Al1110()
 	//programmers.Al12951()
-	//sort.SelectSort()
-	ect.LeastCommonMultiple(30, 50)
+	sort.BubbleSort()
+	//ect.LeastCommonMultiple(30, 50)
 
 }
