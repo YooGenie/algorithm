@@ -33,6 +33,6 @@ func main() {
 	//programmers.Al12951()
 	//sort.BubbleSort()
 	//ect.LeastCommonMultiple(30, 50)
-	ect.StackMain()
-
+	//ect.StackMain()
+	ect.QueueMain()
 }
