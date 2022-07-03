@@ -34,5 +34,5 @@ func main() {
 	//sort.BubbleSort()
 	//ect.LeastCommonMultiple(30, 50)
 	//ect.StackMain()
-	ect.QueueMain()
+	ect.Test20220703()
 }
