@@ -5,13 +5,13 @@ import (
 )
 
 func Al10818V1() {
-	var n,str, min, max int
+	var n, str, min, max int
 	fmt.Scanln(&n)
 	for i := 0; i < n; i++ {
 		fmt.Scanf("%d", &str)
-		if i==0 {
-			min =str
-			max =str
+		if i == 0 {
+			min = str
+			max = str
 		}
 		if min > str {
 			min = str

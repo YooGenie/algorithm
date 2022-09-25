@@ -14,7 +14,7 @@ func Al2438() {
 
 	fmt.Fscanln(reader, &l)
 	for i := 1; i <= l; i++ {
-		for j:=0 ; j<i;j++ {
+		for j := 0; j < i; j++ {
 			fmt.Fprint(writer, "*")
 		}
 		fmt.Fprintln(writer)

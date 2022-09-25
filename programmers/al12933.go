@@ -14,7 +14,7 @@ func Al12933() {
 
 	sort.Sort(sort.Reverse(sort.StringSlice(arr)))
 
-	result, _ := strconv.ParseInt(strings.Join(arr,""),10,64)
+	result, _ := strconv.ParseInt(strings.Join(arr, ""), 10, 64)
 
 	fmt.Println(result)
 }

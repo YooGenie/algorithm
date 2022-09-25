@@ -12,8 +12,8 @@ func Al2741() {
 	writer := bufio.NewWriter(os.Stdout)
 	defer writer.Flush()
 
-	fmt.Fscan(reader,&a)
+	fmt.Fscan(reader, &a)
 	for i := 1; i <= a; i++ {
-	fmt.Fprintln(writer,i)
+		fmt.Fprintln(writer, i)
 	}
 }

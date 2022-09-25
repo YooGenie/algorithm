@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Al10818V3(){
+func Al10818V3() {
 	var n, min, max int
 	fmt.Scan(&n)
 	arr := make([]int, n)

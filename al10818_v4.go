@@ -6,18 +6,18 @@ import (
 	"os"
 )
 
-func Al10818V4(){
+func Al10818V4() {
 	stdin := bufio.NewReader(os.Stdin)
 	var n, min, max int
 	_, err := fmt.Scan(&n)
 	arr := make([]int, n)
-	if err!= nil {
+	if err != nil {
 		fmt.Println("error")
 		stdin.ReadString('\n')
 	}
 	for i := 0; i < n; i++ {
 		_, err = fmt.Scanf("%d", &arr[i])
-		if err!= nil {
+		if err != nil {
 			fmt.Println("error")
 			stdin.ReadString('\n')
 		}
