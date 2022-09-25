@@ -35,6 +35,4 @@ func main() {
 	//ect.Test20220703()
 	programmers.Al77484()
 	programmers.Al42746()
-
-
 }
