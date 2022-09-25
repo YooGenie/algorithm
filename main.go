@@ -28,7 +28,11 @@ func main() {
 	//study_for.Al10871()
 	//study_for.Al10952()
 	//study_for.Al1110()
-	programmers.Al12944()
-
-
+	//programmers.Al12951()
+	//sort.BubbleSort()
+	//ect.LeastCommonMultiple(30, 50)
+	//ect.StackMain()
+	//ect.Test20220703()
+	programmers.Al77484()
+	programmers.Al42746()
 }
