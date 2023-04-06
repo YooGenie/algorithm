@@ -1,7 +1,5 @@
 package main
 
-import "algorithm/programmers"
-
 func main() {
 	//Al2577(150,266,427)
 	//Al10818V1()
@@ -33,6 +31,6 @@ func main() {
 	//ect.LeastCommonMultiple(30, 50)
 	//ect.StackMain()
 	//ect.Test20220703()
-	programmers.Al77484()
-	programmers.Al42746()
+	//programmers.Al77484()
+	//programmers.Al42746()
 }
