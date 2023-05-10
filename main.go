@@ -1,5 +1,7 @@
 package main
 
+import "algorithm/data_structure"
+
 func main() {
 	//Al2577(150,266,427)
 	//Al10818V1()
@@ -33,4 +35,5 @@ func main() {
 	//ect.Test20220703()
 	//programmers.Al77484()
 	//programmers.Al42746()
+	data_structure.Linked()
 }
