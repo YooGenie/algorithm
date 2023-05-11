@@ -1,5 +1,7 @@
 package main
 
+import "algorithm/ect"
+
 func main() {
 	//Al2577(150,266,427)
 	//Al10818V1()
@@ -33,4 +35,8 @@ func main() {
 	//ect.Test20220703()
 	//programmers.Al77484()
 	//programmers.Al42746()
+	//park := []string{"SOO", "OOO", "OOO"}
+	//routes := []string{"E 2", "S 2", "W 1"}
+	//ect.Solution(park, routes)
+	ect.Array2nd(5, 5)
 }
