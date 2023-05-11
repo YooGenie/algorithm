@@ -1,7 +1,5 @@
 package main
 
-import "algorithm/ect"
-
 func main() {
 	//Al2577(150,266,427)
 	//Al10818V1()
@@ -38,5 +36,13 @@ func main() {
 	//park := []string{"SOO", "OOO", "OOO"}
 	//routes := []string{"E 2", "S 2", "W 1"}
 	//ect.Solution(park, routes)
-	ect.Array2nd(5, 5)
+	//ect.Array2nd(5, 5)
+	//park := [][]string{[1,25,300000],[]}
+	//routes := []string{"E 2", "S 2", "W 1"}
+	//srt := "HELLO WORLD" // 답 8개 메리크리스마스 12 해피벌데아 11개
+	//ect.Solution1(srt)
+	//var re = []string{"d", "m", "h"}
+	//var office = []string{"r", "e", "o"}
+	//var em = []string{"1 d h", "1 r m", "2 h", "2 d m", "3 m", "3 o", "3 d"}
+	//ect.Solution2(3, re, office, em)
 }
