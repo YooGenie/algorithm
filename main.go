@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
 func main() {
 	//Al2577(150,266,427)
 	//Al10818V1()
@@ -45,4 +50,21 @@ func main() {
 	//var office = []string{"r", "e", "o"}
 	//var em = []string{"1 d h", "1 r m", "2 h", "2 d m", "3 m", "3 o", "3 d"}
 	//ect.Solution2(3, re, office, em)
+	str := "aBcDeFg"
+	s1 := strings.ToUpper(str) // 모두 대문자로 바꾸기
+	fmt.Println(s1)
+	s2 := strings.ToLower(str) // 모두 소문자로 바꾸기
+	fmt.Println(s2)
+	// 대문자A는 65이며 대문자 Z는 90이며, 소문자 a는 97이고 소문자 z는 122이다
+
+	word := ""
+	for i := 0; i < len(str); i++ {
+		if str[i] >= 65 && str[i] <= 90 {
+			word += strings.ToLower(string(str[i]))
+		}
+		if str[i] >= 97 && str[i] <= 122 {
+			word += strings.ToUpper(string(str[i]))
+		}
+	}
+	fmt.Println(word)
 }
